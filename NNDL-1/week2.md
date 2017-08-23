@@ -22,8 +22,10 @@ The goal is to classify wether each input of the feature vector is `0` or  `1`
 
 ### Notation: 
 
-  (x,y) -> single training example
+  (x,y) -> single training example 
 
-  ```latex
-    x \epsilon \mathbb{R}^{N_{x}}
-  ```
+  Where x is ![x](http://www.sciweavers.org/tex2img.php?eq=x%20%5Cepsilon%20%5Cmathbb%7BR%7D%5E%7BN_%7Bx%7D%7D%0A&bc=White&fc=Black&im=png&fs=18&ff=modern&edit=0)
+ <!--- 
+  Equation
+  x \epsilon \mathbb{R}^{N_{x}}
+  --->
