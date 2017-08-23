@@ -25,3 +25,16 @@ Data can be `Structured` or `Unstructured`.
 * Unstructured: Images or Audio  - Easy for Humans
 
 Thanks to NN Unstructured data is easier for computers to understand Unstructured data
+
+# Why is deep learning just taking off?
+
+The amount of (labeled) data has skyroketed with the digital age. 
+And so has the performance and size NNs. Moreover the algorithms have been changing over time (RELU)
+
+(m) -> Size of the training set (data)
+
+Training a NN is an interative process: 
+
+```
+ -> Idea -> Code -> Experiment -> (round the loop)
+```
