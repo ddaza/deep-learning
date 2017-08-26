@@ -24,10 +24,10 @@ The goal is to classify wether each input of the feature vector is `0` or  `1`
 
   (x,y) -> single training example
 
-  Where `x` is ![x](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=x%20%5Cepsilon%20%5Cmathbb%7BR%7D%5E%7BN_%7Bx%7D%7D)
+  Where `x` is the input vector ![x](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=x%20%5Cepsilon%20%5Cmathbb%7BR%7D%5E%7BN_%7Bx%7D%7D)
  <!-- x \epsilon \mathbb{R}^{N_{x}} -->
 
-  And `y` is  ![y](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=y%20%5Cepsilon%20%5Cbig%5C%7B0%20%2C%201%5Cbig%5C%7D)
+  And `y` is the binary representation ( 0 - no cat, 1 - cat)  ![y](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=y%20%5Cepsilon%20%5Cbig%5C%7B0%20%2C%201%5Cbig%5C%7D)
 
 <!-- y \epsilon \big\{0 , 1\big\} -->
 
@@ -63,6 +63,13 @@ So this would be: ![matrixrep](http://chart.apis.google.com/chart?cht=tx&chs=30&
 ```python
   x.shape(Nx, m)
 ```
+
+To make the implementation of the neuralnet easier is better to input the Y in columns:
+
+![yrepresentation](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=%5Cbig%5B%20y%5E%7B(1)%7D%2Cy%5E%7B(2)%7D%5Cldots%20y%5E%7B(m)%7D%5Cbig%5D)
+<!-- \big[ y^{(1)},y^{(2)}\ldots y^{(m)}\big] -->
+![yrepresentation](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=%5Cbig%5B%20y%5E%7B(1)%7D%2Cy%5E%7B(2)%7D%5Cldots%20y%5E%7B(m)%7D%5Cbig%5D)
+<!-- y \epsilon \mathbb{R}^{1\cdot m} -->
 
 
 
