@@ -55,7 +55,7 @@ x^{(1)} & x^{(2)}& \ldots &x^{(m)} \\
 
 There are other ways to implement the matrix (ie. the number of training examples as rows). The convention before is much easier to implement.
 
-So this would be: ![matrixrep](http://chart.apis.google.com/chart?cht=tx&chs=51&chl=x%20%5Cepsilon%20%5Cmathbb%7BR%7D%5E%7BN_%7Bx%7D%20%5Ccdot%20m%7D)
+So this would be: ![matrixrep](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=x%20%5Cepsilon%20%5Cmathbb%7BR%7D%5E%7BN_%7Bx%7D%20%5Ccdot%20m%7D)
  <!-- x \epsilon \mathbb{R}^{N_{x} \cdot m} -->
 
  or in python: 
