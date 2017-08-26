@@ -61,17 +61,20 @@ So this would be: ![matrixrep](http://chart.apis.google.com/chart?cht=tx&chs=30&
  or in python: 
 
 ```python
-  x.shape(Nx, m)
+  X.shape = (Nx, m)
 ```
 
 To make the implementation of the neuralnet easier is better to input the Y in columns:
 
 ![yrepresentation](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=%5Cbig%5B%20y%5E%7B(1)%7D%2Cy%5E%7B(2)%7D%5Cldots%20y%5E%7B(m)%7D%5Cbig%5D)
 <!-- \big[ y^{(1)},y^{(2)}\ldots y^{(m)}\big] -->
-![yrepresentation](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=%5Cbig%5B%20y%5E%7B(1)%7D%2Cy%5E%7B(2)%7D%5Cldots%20y%5E%7B(m)%7D%5Cbig%5D)
+![yrepresentation](http://chart.apis.google.com/chart?cht=tx&chs=30&chl=y%20%5Cepsilon%20%5Cmathbb%7BR%7D%5E%7B1%5Ccdot%20m%7D)
 <!-- y \epsilon \mathbb{R}^{1\cdot m} -->
 
 
-
+```python
+  Y = shape(1, m)
+```
+ Look at the notes for more info [here](NNDL-1/extra/Week2-TrainingSetNotations.pdf)
 
 
