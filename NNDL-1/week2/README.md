@@ -61,7 +61,7 @@ So this would be: ![matrixrep](http://chart.apis.google.com/chart?cht=tx&chs=30&
  or in python: 
 
 ```python
-  X.shape = (Nx, m)
+  X = shape(Nx, m)
 ```
 
 To make the implementation of the neuralnet easier is better to input the Y in columns:
@@ -75,6 +75,6 @@ To make the implementation of the neuralnet easier is better to input the Y in c
 ```python
   Y = shape(1, m)
 ```
- Look at the notes for more info [here](NNDL-1/extra/Week2-TrainingSetNotations.pdf)
+ Look at the notes for more info [here](../extra/Week2-TrainingSetNotations.pdf)
 
 
